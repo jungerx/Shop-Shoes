@@ -24,4 +24,22 @@ nav {
     height: 1.5rem;
     margin-left: 2rem;
   }
+  @media (max-width: 768px) {
+    nav{
+      width: calc(100% - 160px);
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+    .profile-container{
+      width: 100%;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-around;
+    }
+    input{width: auto;
+    margin-right: 0;}
+    .nav-icons{
+      margin-left: 0;
+    }
+  }
   
